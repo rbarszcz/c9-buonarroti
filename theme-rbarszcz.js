@@ -23,7 +23,7 @@ define('c9-buonarroti/workspace/rbarszcz', ['require', 'exports', 'module', 'ace
   .ace-rbarszcz .ace_keyword { color:#fff; }\
   .ace-rbarszcz .ace_keyword.ace_operator { color:#7f7f7f; font-weight:normal; }\
   .ace-rbarszcz .ace_support.ace_type { color:#bdbdbd; }\
-  .ace-rbarszcz .ace_constant.ace_language { color:#98D9FF; }\
+  .ace-rbarszcz .ace_constant.ace_language { color:#e89cc4; }\
   .ace-rbarszcz .ace_constant.ace_numeric { color:#f58050; }\
   .ace-rbarszcz .ace_constant.ace_language.ace_boolean { color:#9b859d; }\
   .ace-rbarszcz .ace_string { color:#85c5dc; }\
@@ -36,7 +36,7 @@ define('c9-buonarroti/workspace/rbarszcz', ['require', 'exports', 'module', 'ace
   .ace-rbarszcz .ace_invalid { color:#CED2CF; background-color:#DF5F5F; }\
   .ace-rbarszcz .ace_invalid.ace_deprecated { color:#CED2CF; background-color:#B798BF; }\
   .ace-rbarszcz .ace_fold { background-color: #7AA6DA; border-color: #DEDEDE; }\
-  .ace-rbarszcz .ace_function { color:#7f7f7f; }\
+  .ace-rbarszcz .ace_function { color:#fff; }\
   .ace-rbarszcz .ace_comment { color:#614d3d; font-style:italic; }\
   .ace-rbarszcz .ace_variable { color:#e89cc4; }\
   .ace-rbarszcz .ace_meta.ace_tag { color:#bdbdbd; }\

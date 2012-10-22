@@ -29,7 +29,7 @@ define(function(require, exports, module) {
       themes.register(this.themes); 
     },
     enable  : function() {
-      aceConfig.set("themePath","xtra-themes/workspace");
+      aceConfig.set("themePath","c9-buonarroti/workspace");
       themes.register(this.themes);
     },      
     disable : function() { 
