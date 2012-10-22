@@ -7,7 +7,7 @@ installation
 ============
 
 1. clone this repository in a new workspace
-2. open your workspaces and add the extension (https://c9.io/<your username>/c9-buonarroti/workspace/c9-buonarroti.js)
+2. open your workspaces and add the extension (https://c9.io/[your username]/c9-buonarroti/workspace/c9-buonarroti.js)
 3. choose a new theme (marked with *)
 
 issues
