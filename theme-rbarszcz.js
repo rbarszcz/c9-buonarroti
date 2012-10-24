@@ -16,12 +16,14 @@ define('c9-buonarroti/workspace/rbarszcz', ['require', 'exports', 'module', 'ace
   .ace-rbarszcz .ace_cursor.ace_overwrite { border-left: 0px; border-bottom: 1px solid #9F9F9F;}\
   .ace-rbarszcz .ace_marker-layer .ace_selection { background: rgba(255, 255, 255, 0.2); }\
   .ace-rbarszcz .ace_marker-layer .ace_step { background: rgb(198, 219, 174); }\
-  .ace-rbarszcz .ace_marker-layer .ace_bracket { margin: -1px 0 0 -1px; border: 1px solid #343434; }\
+  .ace-rbarszcz .ace_marker-layer .ace_bracket { margin: -1px 0 0 -1px;\
+  border: 1px solid #343434; color:#f4c36a; font-weight:bold; }\
   .ace-rbarszcz .ace_marker-layer .ace_active-line { background: rgba(189, 189, 189, 0.12); }\
   .ace-rbarszcz .ace_marker-layer .ace_selected-word { margin: -1px 0 0 -1px; border: 1px solid #343434; }\
   .ace-rbarszcz .ace_invisible { color: rgba(75, 75, 126, 0.50); }\
   .ace-rbarszcz .ace_keyword { color:#fff; }\
-  .ace-rbarszcz .ace_keyword.ace_operator { color:#7f7f7f; font-weight:normal; }\
+  .ace-rbarszcz .ace_operator { color:#7f7f7f; }\
+  .ace-rbarszcz .ace_keyword.ace_operator { color:#909090; }\
   .ace-rbarszcz .ace_support.ace_type { color:#bdbdbd; }\
   .ace-rbarszcz .ace_constant.ace_language { color:#e89cc4; }\
   .ace-rbarszcz .ace_constant.ace_numeric { color:#f58050; }\
@@ -39,11 +41,13 @@ define('c9-buonarroti/workspace/rbarszcz', ['require', 'exports', 'module', 'ace
   .ace-rbarszcz .ace_function { color:#fff; }\
   .ace-rbarszcz .ace_comment { color:#614d3d; font-style:italic; }\
   .ace-rbarszcz .ace_variable { color:#e89cc4; }\
-  .ace-rbarszcz .ace_meta.ace_tag { color:#bdbdbd; }\
-  .ace-rbarszcz .ace_entity.ace_other.ace_attribute-name { color:#7f7f7f; }\
+  .ace-rbarszcz .ace_meta.ace_tag { color:#5d5d5d; }\
+  .ace-rbarszcz .ace_meta.ace_tag.ace_tag-name { color:#bdbdbd; }\
+  .ace-rbarszcz .ace_entity.ace_other.ace_attribute-name  { color:#7f7f7f; }\
   .ace-rbarszcz .ace_markup.ace_underline { text-decoration:underline; }\
-  .ace-rbarszcz .ace_markup.ace_heading { color:#FFE898; }";
-  
+  .ace-rbarszcz .ace_markup.ace_heading { color:#FFE898; }\
+  .ace-rbarszcz .ace_indent-guide { background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNQUFD4z6Crq/sfAAuYAuYl+7lfAAAAAElFTkSuQmCC') right repeat-y; }";
+
   var dom = require("ace/lib/dom");
   dom.importCssString(exports.cssText, exports.cssClass);
 });
